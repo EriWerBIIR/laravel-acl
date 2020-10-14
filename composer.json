@@ -43,5 +43,10 @@
                 "Kodeine\\Acl\\AclServiceProvider"
             ]
 	    }
+    },
+    "scripts": {
+        "test": [
+            "phpunit tests"
+        ]
     }
 }
