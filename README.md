@@ -132,3 +132,18 @@ Support follows PSR-2 PHP coding standards, and semantic versioning.
 
 Please report any issue you find in the issues page.
 Pull requests are welcome.
+
+## Getting started
+
+* Fork the project on GitHub
+* Clone your fork of the project
+* Run: `composer install`
+* Run: `composer test`
+  * If you get a "could not find driver" error, you need to enable `extension=pdo_sqlite` in the php.ini file
+* Write a test that failes on the error you see, or the functionalty you need, and test again.
+* Develop and test until no errors remain.
+
+### Code coverage
+* Run: `composer coverage`
+  * If you get the `No code coverage driver is available` error, [Install Xdebug](https://xdebug.org/docs/install)
+* Ensure that the code you have added is covered

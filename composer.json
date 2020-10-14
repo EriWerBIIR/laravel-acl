@@ -47,6 +47,9 @@
     "scripts": {
         "test": [
             "phpunit tests"
+        ],
+        "coverage": [
+            "phpunit --whitelist src --coverage-html tests/coverage tests"
         ]
     }
 }
